@@ -1,0 +1,9 @@
+Procure algo para medir a temperatura
+Pegue um termometro usavel
+Meça a temperatura em celsios
+Certifique-se que o termometro indique o valor correto, em celsios
+Crie uma interface para mostrar a conversao
+Multiplique a temperatura por 1,8
+Adicione 32 ao resultado
+Insira o resultado na interface
+Teste a interface
