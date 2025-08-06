@@ -1,0 +1,25 @@
+nome = "Fizz"
+idade = 20
+altura = 1.10
+classe = "Assassino"
+poder = "Agua"
+arma = "Tridente"
+status = "Desaparecido"
+
+print("hello world")
+
+a=10
+b=20
+
+print(a)
+print(b)
+print(a,b)
+
+nomeText = "Ola, meu nome é Luis V"
+idadeText = "Tenho 24 anos"
+situacao = "e estou aprendendo python!"
+
+print(nomeText, "," , idadeText, situacao)
+
+nomeInput = input("Digite seu nome: ")
+print("Ola, ", nomeInput)
