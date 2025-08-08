@@ -1,1 +1,20 @@
+1
+- Compra, Navega, pesquisa, vende
+- O usuario, ao clicar em "comprar" manda uma solicitacao de compra para um sistema de hospdagem 
+  que redireciona para a loja ou o vendedor.
 
+2
+- WhatsApp
+- Front-End = Interface, Status, Conversas, Registros de ligações, Configurações, Fotos, Camera, ETC
+- Back-End = Criptografia, segurança, Banco de dados, Funcionalidades, Integrações... ou seja, códigos!
+
+3
+- O Store - Sistema de compra
+- Cria a conta - Faz login - pesquisa compras - seleciona um produto - carrinho - Informações pessoais - Area de pagamento - Efetuar compra
+
+- Atraves de inputs em diferentes telas(login, informações pessoas, pagamento), os dados são recolhidos, processados e armazenados no banco de dados, 
+  passando por entrada de dados, processamento de dados do usuario e finalizando com a requisição da compra para a loja, onde o produto sera devidamente
+  realocado e enviado para o cliente.
+
+- Front-End = O que esta sendo mostrado para o usuario (Interface, botões, navegação, fotos e informações do produto)
+- Back-End = O que esta "por tras" das funcionalidades do aplicativo (Banco de dados, Segurança, pagamentos, funcionalidades)
