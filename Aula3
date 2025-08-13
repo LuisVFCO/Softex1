@@ -1,0 +1,5 @@
+Fazer uma pasta (make a directory) - mkdir dev-reposi
+Entrar na pasta - cd dev-reposi
+Sair da pasta - cd ..
+Encontrar pasta - ls
+jogar na maquina - git clone https://github.com/LuisVFCO/qqq.git
