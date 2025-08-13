@@ -2,6 +2,8 @@ Fazer uma pasta (make a directory) - mkdir dev-reposi
 Entrar na pasta - cd dev-reposi
 Sair da pasta - cd ..
 Encontrar pasta - ls
-jogar na maquina - git clone https://github.com/LuisVFCO/qqq.git
+Jogar na maquina - git clone https://github.com/LuisVFCO/qqq.git
 Entrar no arquivo - cd qqq
-codar - code .
+Codar - code .
+Login git - git config --global user.name "LuisVFCO"
+            git config --global user.email luiz2001vine@hotmail.com
