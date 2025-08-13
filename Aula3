@@ -1,3 +1,6 @@
+Login git - git config --global user.name "LuisVFCO"
+            git config --global user.email luiz2001vine@hotmail.com
+
 Fazer uma pasta (make a directory) - mkdir dev-reposi
 Entrar na pasta - cd dev-reposi
 Sair da pasta - cd ..
@@ -5,5 +8,7 @@ Encontrar pasta - ls
 Jogar na maquina - git clone https://github.com/LuisVFCO/qqq.git
 Entrar no arquivo - cd qqq
 Codar - code .
-Login git - git config --global user.name "LuisVFCO"
-            git config --global user.email luiz2001vine@hotmail.com
+
+Subir por Git Bash - git add .
+                     git commit -m "Segundo commit, com tudo"
+                     git push
