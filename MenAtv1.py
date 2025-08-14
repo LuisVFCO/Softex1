@@ -1,6 +1,6 @@
 # Olá mundo personalisado
-nome = "usuario"
-print("Olá!", nome ,"Bem-vindo!(a) ao mundo do Python :D")
+nome = input("Informe seu nome: ")
+print("Olá!", nome ,"^^ Bem-vindo!(a) ao mundo do Python :D")
 
 # Calculadora simples
 num1 = int(input("Digite um número: "))
