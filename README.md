@@ -32,8 +32,8 @@ Este repositório serve para:
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Python 3**
-- Editor de código: *VS Code* / *Google Colab*
+- **Python 3** / **Flask**
+- Editor de código: *VS Code* / **
 - Git & GitHub para versionamento
 
 ---
