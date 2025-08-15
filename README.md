@@ -33,7 +33,7 @@ Este repositório serve para:
 
 ## 🛠️ Tecnologias Utilizadas
 - **Python 3** / **Flask**
-- Editor de código: *VS Code* / **
+- Editor de código: *VS Code*
 - Git & GitHub para versionamento
 
 ---
