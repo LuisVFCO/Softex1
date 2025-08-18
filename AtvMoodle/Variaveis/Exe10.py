@@ -1,4 +1,4 @@
-# Crie um dicionário estoque com:
+# Desafio Final: Crie um dicionário estoque com:
 estoque  = {"maçã": 10, "banana": 5, "laranja": 8}
 
 # Adicione "pera" com quantidade 12
