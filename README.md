@@ -15,7 +15,7 @@ Aqui estão armazenadas as **aulas**, **atividades** e **atividades de mentoria*
 - **AulaX**  
   Arquivos referentes ao conteúdo visto em sala durante as aulas normais.
   
-- **AtvAulaX**  
+- **AulaXAtv**  
   Atividades realizadas durante ou após as aulas, relacionadas diretamente ao conteúdo visto.
   
 - **MentoriaAtvX.py**  
