@@ -1,0 +1,38 @@
+Introducao à Engenharia de Software
+
+- Atributos de um bom software
+Deve proporcionar a funcionalidade e o desempenho necessários
+    manutenivel
+    usavel
+    dependabilidade
+
+- Atividades fundamentais da engenharria de software
+    especificacao
+    desenvolvimento
+    validacao
+    evollucao do software
+
+- Principais Desafios
+    crescente diversidade
+    menores prazos de entrega
+    desenvolvimento de software confiavel
+
+- Tipos de Software
+    Aplicacoes locais
+    sistemas embarcados
+    sistemas de modelagem e simulacao
+    sistema de coleta e analise de dados
+
+- Metodologia de Desenvolvimento de Software
+    Cascata
+    V-Model 
+    Modelo Rational Unified Process (RUP)
+
+
+- Metodologias Ágeis
+    Scrum
+    Kanban
+    Lean
+    Extreme Programming (XP)
+
+- 
