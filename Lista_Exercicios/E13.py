@@ -4,7 +4,7 @@ lista0 = []
 
 for i in range(8):
     numero = int(input("Digite um número: "))
-    if numero > 0 and numero != 2001:
+    if numero > 0:
         listanumpo.append(numero)
     elif numero < 0:
         listanumneg.append(numero)
