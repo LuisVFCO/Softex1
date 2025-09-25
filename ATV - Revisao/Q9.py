@@ -1,3 +1,4 @@
+# Peça ao usuário para digitar a idade de 10 pessoas.
 
 crianca = 0
 adolescente = 0

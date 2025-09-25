@@ -1,3 +1,5 @@
+# Crie um "Verificador de Turma".
+ 
 alguem_reprovou = False
 
 for i in range(1, 6):

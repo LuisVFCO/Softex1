@@ -1,3 +1,5 @@
+# Faça um programa "Controle de Despesas". 
+
 despesas = []
 
 while True:
