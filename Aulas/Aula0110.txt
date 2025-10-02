@@ -1,0 +1,52 @@
+funcoes
+
+def saudacao():
+    print("ola mundo")
+saudacao()
+
+def nome_da_funcao(parametros):
+    instrucao 1
+    instrucao 2
+    return valor (opcional)
+
+def soma_tres(x):
+    res = x + 3
+    return res
+resultado = soma_tres(5)
+print(resultado)
+
+def media_simples(a, b):
+    return (a + b) / 2
+print(media_simples(5, 10))
+
+
+
+Variaveis locais x Variaveis globais:
+
+def exemplo():
+    variavel_local = 10
+    print(variavel_local)
+exemplo()
+
+variavel_global = 5
+def exemplo():
+    print(variavel_global)
+exemplo()
+
+
+Exemplo:
+
+def calcular_imposto(valor):
+    if valor < 1000:
+        imposto = valor * 0.1
+    elif valor < 2000:
+        imposto = valor * 0.13
+    else:
+        imposto = valor * 0.2
+    return imposto
+
+preco_produto = 1500
+
+imposto_produto = calcular_imposto(preco_produto)
+
+print(f"O imposto do produto e de: {imposto_produto}")
