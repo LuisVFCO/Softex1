@@ -7,3 +7,9 @@ def eh_par(x):
         return False
 resultado = eh_par(11)
 print(resultado)
+
+
+def eh_par2(x):
+    return x % 2 == 0
+
+print(eh_par2(19))
