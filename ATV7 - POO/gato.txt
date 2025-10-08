@@ -1,0 +1,9 @@
+Atividade 7
+
+Classe: Gato
+    Atributo 1 - Raça
+    Atributo 2 - Cor
+    Atributo 3 - Sexo
+
+    Metodo 1 - Come
+    Metodo 2 - Dorme
