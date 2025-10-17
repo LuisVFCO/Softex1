@@ -20,7 +20,7 @@ class Gato:
             print(f"{self.nome} está comendo, ele parecia faminto, mas ainda está com fome!")
         elif self.acordado and self.fome == 2:
             self.fome += 1
-            print(f"{self.nome} está comendo, ele parecee estar gostando, mas ainda está com fome!")
+            print(f"{self.nome} está comendo, ele parece estar gostando, mas ainda está com fome!")
         elif self.acordado and self.fome <= 3:
             self.fome += 1
             print(f"{self.nome} está comendo, ele parece quase cheio, mas ainda está com fome!")
