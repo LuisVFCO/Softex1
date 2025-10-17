@@ -12,9 +12,18 @@ class Gato:
         self.acordado = True
 
     def alimento(self):
-        if self.acordado and self.fome <= 4:
+        if self.acordado and self.fome <= 0:
+            print(f"Dê de comer a {self.nome}! Ele esta faminto!")
             self.fome += 1
-            print(f"O {self.nome} está comendo! Ele pode comer mais!")
+        elif self.acordado and self.fome == 1:
+            self.fome += 1
+            print(f"{self.nome} está comendo, ele parecia faminto, mas ainda está com fome!")
+        elif self.acordado and self.fome == 2:
+            self.fome += 1
+            print(f"{self.nome} está comendo, ele parecee estar gostando, mas ainda está com fome!")
+        elif self.acordado and self.fome <= 3:
+            self.fome += 1
+            print(f"{self.nome} está comendo, ele parece quase cheio, mas ainda está com fome!")
         else:
             print(f"O {self.nome} está cheio!!")
             
@@ -26,8 +35,6 @@ class Gato:
 meu_gato = Gato("Cleiton", "Persa", "Preto", "Femea")
 
 meu_gato.acordar()
-meu_gato.alimento()
-meu_gato.alimento()
 meu_gato.alimento()
 meu_gato.alimento()
 meu_gato.alimento()
