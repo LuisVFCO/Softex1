@@ -1,0 +1,23 @@
+Q1 - O que a palavra "polimorfismo" significa?
+O nome "Polimorfismo" significa "muitas formas" e vem do grego poli, "muitas", e morphos, "formas".
+
+Q2 - Como o exemplo de herança da Pessoa, Aluno e Professor (com o
+método exibir_dados()) demonstra o polimorfismo?
+
+No exemplo, percebemos que, mesmo aluno e professor sendo filhas da mesma classe (pessoa),
+ambas as classes possuem métodos iguais, que foram herdadas de pessoa, mas com resultados diferentes, 
+mostrando que classes filhas podem se diferenciar de outras, adiquirindo "muitas outras formas", mesmo
+com métodos iguais herdados.
+
+
+Q3 - Considere o código abaixo. O que será impresso na tela? Por quê?
+
+Será impresso a mensagem enviada para diferentes tipos de notificações, algo como:
+
+Disparando notificações
+Enviando E-mail para usuario@email.com: 'Bem-vindo ao sistema!'
+Enviando SMS para 1199988888: 'Bem-vindo ao sistema...'
+[APP] Nova notificação para token do app 123: 'Bem-vindo ao sistema!'
+Enviando E-mail para outro@email.com: 'Bem-vindo ao sistema!'
+
+Cada classe filha muda o método enviar() da classe Notificacao de sua própria forma.

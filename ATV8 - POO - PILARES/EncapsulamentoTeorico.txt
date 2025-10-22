@@ -1,0 +1,18 @@
+Q1 - Por que é uma boa prática não acessar diretamente os atributos de um objeto 
+(ex: meu_objeto.atributo = valor) e, em vez disso, usar métodos (getters e setters)?
+
+Usar getters e setters é uma boa prática porque ajuda a manter o encapsulamento do código,
+controlando como os dados são acessados e modificados.
+Além disso, se a forma como os dados são manipulados mudar no futuro, pode-se
+mudar apenas os métodos sem mudar o restante do código que usa a classe.
+
+
+Q2 - Em Python, qual é a convenção usada para indicar que um atributo deve ser tratado 
+como "privado" e não acessado de fora da classe?
+
+a) Usar a palavra-chave private antes do nome do atributo.  
+b) Colocar dois underscores (sublinhados) no início do nome do atributo (ex: __saldo).  
+c) Colocar um único underscore no início do nome do atributo (ex: _saldo).  
+d) B e C são convenções usadas, mas com significados ligeiramente diferentes.  
+
+Resposta: d)

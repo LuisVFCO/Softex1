@@ -1,0 +1,19 @@
+Q1 - Explique com suas palavras o que é herança e por que ela é útil na
+programação. Dê um exemplo do mundo real (não relacionado a código)
+de uma relação de herança (ex: "Animal" e "Cachorro").
+
+Herança é um conceito que diz que uma classe filha pode aproveitar 
+atributos e métodos de outra classe, ou classe pai. 
+A herança é bastante útil para evitar que o código fique repetitivo e difícil de ler.
+ 
+Como exemplo, na frase "O ser humano é um animal mamífero", o ser humano é a classe filha, 
+pois herda características dos mamíferos (a classe pai), enquanto elefante, por exemplo, 
+é outra classe filha, que possui características diferentes do ser humano, 
+mas continua herdando características dos mamíferos.
+
+Q2 -  Verdadeiro ou Falso:
+
+(F) Uma classe filha herda apenas os métodos da classe pai, mas
+não os atributos.
+(V) O principal benefício da herança é evitar a repetição de código.
+(V) Em Python, uma classe pode herdar de múltiplas classes pai.
