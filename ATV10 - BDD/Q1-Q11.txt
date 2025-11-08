@@ -28,12 +28,21 @@ Com base nisso identifique as entidades e seus principais atributos.
 
     Funcionários
         Id_funcionarios
+        nome
+        salario
+        cargo
 
     Departamentos
         Id_departamentos
+        nome_departamento
+        local
     
     Projetos
         Id_Projetos
+        nome_projeto
+        descricao
+        data_inicio
+        data_fim
 
 
 6. A partir das tabelas abaixo, identifique qual delas são as chaves primárias.

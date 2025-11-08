@@ -1,0 +1,110 @@
+12.Analise o cenário:
+“Uma loja deseja registrar seus clientes, vendas e produtos. Cada venda
+pode conter vários produtos, e cada cliente pode realizar múltiplas
+vendas.”
+Liste as entidades e seus atributos principais.
+
+    clientes
+        id_cliente
+        nome
+        telefone
+        cpf
+
+    vendas
+        id_vendas
+        valor_total
+        data_venda
+
+    produtos
+        id_produtos
+        nome_produto
+        preco
+        qtd_estoque
+
+
+13.A partir do modelo conceitual simplificado abaixo, escreva a representação
+relacional (modelo relacional) e indique quais são as chaves primárias:
+PACIENTE (id_paciente, nome, telefone)
+CONSULTA (id_consulta, data, id_paciente)
+MÉDICO (id_medico, nome, especialidade)
+CONSULTA é realizada por MÉDICO
+
+    PACIENTE
+        id_paciente (chave primária)
+        nome
+        telefone
+
+    MÉDICO
+        id_medico (chave primária)
+        nome
+        especialidade
+
+    CONSULTA
+        id_consulta (chave primária)
+        data
+        id_paciente (chave estrangeira)
+        id_medico (chave estrangeira)
+
+
+
+14.Imagine que você foi contratado para participar da análise de requisitos de um
+sistema de rede social.
+a. Liste 2 requisitos funcionais.
+b. Liste 2 requisitos não funcionais.
+
+    Requisitos funcionais
+        1. O sistema deve registrar novos usuários através de uma conta pessoal.
+        2. O sistema deve fornecer ao usuário um chat para conversas com outras pessoas.
+   
+    Requisitos Não funcionais
+        1. O sistema não deve manter nem fornecer a terceiros dados pessoais de seus usuários.
+        2. O sistema deve ser capaz de operar corretamente, sem falhas, por longos períodos de tempo.
+
+c. Dê um exemplo de entidade e atributos que fariam parte desse
+sistema.
+    
+    USUÁRIO
+        id_usuario
+        nome
+        email
+        senha
+        data_nascimento
+
+15.Explique, com suas palavras:
+a. Por que uma boa modelagem de dados facilita a implementação e
+manutenção do banco de dados.
+b. Como um SGBD ajuda a evitar erros humanos e problemas de
+redundância.
+
+16.Assinale a alternativa correta sobre as chaves primárias em bancos de dados
+relacionais.
+
+    a. A chave primária é uma combinação única de valores que identifica cada
+    registro (linha) de uma tabela.
+
+17.Durante a análise de um sistema de vendas, o analista percebeu que cada
+produto precisa de informações como código, nome, preço e quantidade em
+estoque. Nessa descrição, podemos dizer que:
+
+    b. “Produto” é uma entidade e os demais são atributos.
+
+
+18.Durante a análise de requisitos, o analista deve:
+
+    b. Levantar e entender o que o sistema deve armazenar e como deve
+    funcionar.
+
+19.Situação-problema:
+Uma pequena loja de roupas deseja organizar suas informações em um banco
+de dados. Atualmente, eles controlam tudo em planilhas e querem registrar: os
+clientes que compram, os produtos vendidos e as vendas realizadas.
+● Cada cliente tem um código único, nome, telefone e endereço.
+● Cada produto tem um código único, nome e preço.
+● Cada venda possui um número identificador, a data da venda e o código
+do cliente que realizou a compra.
+
+Tarefa:
+1. Liste as entidades que farão parte do banco de dados.
+2. Defina os atributos de cada entidade (indicando a chave primária).
+3. Monte a representação relacional (tabelas em formato de texto).
+
