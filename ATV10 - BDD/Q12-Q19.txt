@@ -73,8 +73,18 @@ sistema.
 15.Explique, com suas palavras:
 a. Por que uma boa modelagem de dados facilita a implementação e
 manutenção do banco de dados.
+
+    Pois serve para organizar o banco de dados antes da sua criação, 
+    sendo mais fácil entender como e onde cada informação deve ser 
+    implementada, evitando retrabalhos.
+
 b. Como um SGBD ajuda a evitar erros humanos e problemas de
 redundância.
+
+    O SGBD possui diversas regras que garantem o controle e evitam erros humanos 
+    que podem comprometer o funcionamento do sistema, servindo como uma proteção 
+    para que o banco de dados seja confiável. 
+    Um exemplo disso é a recusa de dados duplicados em colunas de campos únicos.
 
 16.Assinale a alternativa correta sobre as chaves primárias em bancos de dados
 relacionais.
@@ -107,4 +117,20 @@ Tarefa:
 1. Liste as entidades que farão parte do banco de dados.
 2. Defina os atributos de cada entidade (indicando a chave primária).
 3. Monte a representação relacional (tabelas em formato de texto).
+
+clientes
+    cod_cliente (Chave Primária)
+    nome
+    telefone
+    endereco
+
+produtos
+    cod_produto (Chave Primária)
+    nome_produto
+    preco
+
+vendas
+    num_identificador (Chave Primária)
+    data_venda
+    cod_cliente (chave estrangeira)
 
