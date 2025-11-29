@@ -1,0 +1,48 @@
+TABELA: Usuario
+
+| Atributo   | Tipo    | Obrigatório |
+| ---------- | ------- | ----------- |
+| id_usuario | inteiro | sim         |
+| nome       | texto   | sim         |
+| cpf        | texto   | sim         |
+
+
+TABELA: Livro
+
+| Atributo   | Tipo    | Obrigatório |
+| ---------- | ------- | ----------- |
+| id_livro   | inteiro | sim         |
+| autor      | texto   | sim         |
+| titulo     | texto   | sim         |
+| data_lanca | data    | sim         |
+
+
+TABELA: Estoque
+
+| Atributo   | Tipo                  | Obrigatório |
+| ---------- | --------------------- | ----------- |
+| id_estoque | inteiro               | sim         |
+| quantidade | inteiro               | sim         |
+| id_livro   | referência → Livro    | sim         |
+
+
+RELACIONAMENTO: Usuario compra Livro
+
+| Entidade 1 | Entidade 2 | Tipo         | Cardinalidade |
+|------------|------------|--------------|----------------|
+| Usuario    | Livro      | associação   | Usuario (0,n), Livro (1,n) |
+
+Descrição:
+- Um usuário pode comprar vários livros.
+- Um livro pode ser comprado por vários usuários.
+
+
+RELACIONAMENTO: Livro tem Estoque
+
+| Entidade 1 | Entidade 2 | Tipo         | Cardinalidade |
+|------------|------------|--------------|----------------|
+| Livro      | Estoque    | associação   | Livro (1,n), Estoque (1,1) |
+
+Descrição:
+- Cada livro possui exatamente um estoque associado.
+- O estoque está sempre vinculado a um livro.
